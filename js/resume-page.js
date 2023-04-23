@@ -101,7 +101,7 @@ validateUser();
 //fetch(" https://api.npoint.io/5407e213a69a2856db74")
 //fetch("../resources/data/Data.json")
 
-fetch("https://api.npoint.io/5407e213a69a2856db74") 
+fetch("../resources/data/Data.json") 
   .then((response) => response.json())
   .then((respData) => {
     loader.style.display = "none";
